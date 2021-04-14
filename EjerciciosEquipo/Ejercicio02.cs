@@ -14,5 +14,15 @@ namespace EjerciciosEquipo
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int bases = int.Parse(textBox1.Text);
+            int exponente = int.Parse(textBox2.Text);
+            int potencia;
+            potencia = (int)Math.Pow(bases, exponente);
+            textBox3.Text = potencia + "";
+
+        }
     }
 }
