@@ -15,33 +15,29 @@ namespace EjerciciosEquipo
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
-            int a = int.Parse(textBox1.Text);
-            int b = int.Parse(textBox2.Text);
-            int temporal = 0;
-            while (b != 0) {
-                temporal = b;
+            int a = int.Parse(numero1.Text);
+            int b = int.Parse(numero2.Text);
+            int temporal = 0;             
+            while (b != 0) {                 
+                temporal = b;                 
+                b = a % b;                 
+                a = temporal;              
+            }             
+            resultado.Text = a + "";
+            /*
+            int a = Math.Max(n1, n2);
+            int b = Math.Min(n1, n2);
+            int resto;
+            do
+            {
+                resto = b;
                 b = a % b;
-                a = temporal;
+                a = resto;
+            } while (b != 0);
 
-            }
-            textBox3.Text = a + "";
-        }
-
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-
+            resultado.Text = "" + a;*/
         }
     }
 }

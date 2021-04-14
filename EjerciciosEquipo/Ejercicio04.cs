@@ -21,9 +21,15 @@ namespace EjerciciosEquipo
 
         }
 
-
-        
-
-
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string texto = textBox1.Text;
+            string resultado = "";
+            for (int i = 0; i < texto.Length; i++)
+            {
+                resultado = texto[i] + resultado;
+            }
+            textBox2.Text = resultado;
+        }
     }
 }

@@ -14,5 +14,21 @@ namespace EjerciciosEquipo
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string[] vector = textBox1.Text.Split(",");
+            int menor = int.Parse(vector[0]);
+            int num = 0;
+            for (int i = 1; i < vector.Length; i++)
+            {
+                num = int.Parse(vector[i]);
+                if (num < menor)
+                {
+                    menor = num;
+                }
+            }
+            textBox2.Text = menor + " ";
+        }
     }
 }
