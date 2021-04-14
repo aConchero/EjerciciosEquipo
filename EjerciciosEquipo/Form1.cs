@@ -59,39 +59,67 @@ namespace EjerciciosEquipo
             ej5.Show();
         }
 
-        private void button12_Click(object sender, EventArgs e)
+        /* private void button12_Click(object sender, EventArgs e)
+         {
+
+         }
+
+         private void button13_Click(object sender, EventArgs e)
+         {
+
+         }
+
+         private void button14_Click(object sender, EventArgs e)
+         {
+             Ejercicio08 ej8 = new Ejercicio08();
+             ej8.Show();
+         }
+
+         private void button15_Click(object sender, EventArgs e)
+         {
+             Ejercicio09 ej9 = new Ejercicio09();
+             ej9.Show();
+         }
+
+         private void button16_Click(object sender, EventArgs e)
+         {
+             Ejercicio10 ej10 = new Ejercicio10();
+             ej10.Show();
+         }
+
+         private void button9_Click(object sender, EventArgs e)
+         {
+
+         }*/
+
+        private void button12_Click_1(object sender, EventArgs e)
         {
             Ejercicio06 ej6 = new Ejercicio06();
             ej6.Show();
         }
 
-        private void button13_Click(object sender, EventArgs e)
+        private void button13_Click_1(object sender, EventArgs e)
         {
             Ejercicio07 ej7 = new Ejercicio07();
             ej7.Show();
         }
 
-        private void button14_Click(object sender, EventArgs e)
+        private void button14_Click_1(object sender, EventArgs e)
         {
             Ejercicio08 ej8 = new Ejercicio08();
             ej8.Show();
         }
 
-        private void button15_Click(object sender, EventArgs e)
+        private void button15_Click_1(object sender, EventArgs e)
         {
             Ejercicio09 ej9 = new Ejercicio09();
             ej9.Show();
         }
 
-        private void button16_Click(object sender, EventArgs e)
+        private void button16_Click_1(object sender, EventArgs e)
         {
             Ejercicio10 ej10 = new Ejercicio10();
             ej10.Show();
-        }
-
-        private void button9_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

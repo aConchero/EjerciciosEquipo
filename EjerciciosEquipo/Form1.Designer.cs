@@ -134,7 +134,6 @@ namespace EjerciciosEquipo
             this.button9.TabIndex = 9;
             this.button9.Text = "Ejercicio 9";
             this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button10
             // 
@@ -163,6 +162,7 @@ namespace EjerciciosEquipo
             this.button12.TabIndex = 6;
             this.button12.Text = "Ejercicio 6";
             this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click_1);
             // 
             // button13
             // 
@@ -172,6 +172,7 @@ namespace EjerciciosEquipo
             this.button13.TabIndex = 7;
             this.button13.Text = "Ejercicio 7";
             this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click_1);
             // 
             // button14
             // 
@@ -181,6 +182,7 @@ namespace EjerciciosEquipo
             this.button14.TabIndex = 8;
             this.button14.Text = "Ejercicio 8";
             this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click_1);
             // 
             // button15
             // 
@@ -190,6 +192,7 @@ namespace EjerciciosEquipo
             this.button15.TabIndex = 9;
             this.button15.Text = "Ejercicio 9";
             this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.button15_Click_1);
             // 
             // button16
             // 
@@ -199,6 +202,7 @@ namespace EjerciciosEquipo
             this.button16.TabIndex = 10;
             this.button16.Text = "Ejercicio 10";
             this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.button16_Click_1);
             // 
             // Form1
             // 
