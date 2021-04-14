@@ -14,5 +14,11 @@ namespace EjerciciosEquipo
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int num1 = int.Parse(numero1.Text);
+            int num1 = int.Parse(numero1.Text);
+        }
     }
 }
