@@ -23,6 +23,7 @@ namespace EjerciciosEquipo
             potencia = (int)Math.Pow(bases, exponente);
             textBox3.Text = potencia + "";
 
+
         }
     }
 }
