@@ -34,6 +34,7 @@ namespace EjerciciosEquipo
                 temporal = b;
                 b = a % b;
                 a = temporal;
+
             }
             textBox3.Text = a + "";
         }
