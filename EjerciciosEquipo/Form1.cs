@@ -26,5 +26,31 @@ namespace EjerciciosEquipo
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Ejercicio01 ej1 = new Ejercicio01();
+            ej1.Show();
+            //this.Close();
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Ejercicio02 ej2 = new Ejercicio02();
+            ej2.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Ejercicio03 ej3 = new Ejercicio03();
+            ej3.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Ejercicio04 ej4 = new Ejercicio04();
+            ej4.Show();
+        }
     }
 }
