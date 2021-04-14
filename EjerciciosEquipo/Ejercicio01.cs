@@ -14,5 +14,16 @@ namespace EjerciciosEquipo
         {
             InitializeComponent();
         }
+
+        private void Factorial_Click(object sender, EventArgs e)
+        {
+            int numero = int.Parse(textBox1.Text);
+            int resultado = 1;
+            for (int i = 1; i <= numero; i++)
+            {
+                resultado = i * resultado;
+            }
+            textBox2.Text = resultado.ToString();
+        }
     }
 }
