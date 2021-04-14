@@ -18,7 +18,7 @@ namespace EjerciciosEquipo
         private void button1_Click(object sender, EventArgs e)
         {
             int num1 = int.Parse(numero1.Text);
-            int num1 = int.Parse(numero1.Text);
+            int num2 = int.Parse(numero1.Text);
         }
     }
 }
